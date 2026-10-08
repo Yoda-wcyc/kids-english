@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="zh-Hant-TW">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>小朋友學習站搬家了</title>
+<meta name="robots" content="noindex">
+<link rel="canonical" href="https://yoda-wcyc.github.io/Kids-Station/">
+<script>
+(function () {
+  var p = location.pathname.replace(/^\/kids-english(?=\/|$)/i, '/Kids-Station');
+  if (p.indexOf('/Kids-Station') !== 0) p = '/Kids-Station/';
+  location.replace(location.origin + p + location.search + location.hash);
+})();
+</script>
+<meta http-equiv="refresh" content="3; url=https://yoda-wcyc.github.io/Kids-Station/">
+<style>
+body{margin:0;min-height:100vh;display:flex;align-items:center;justify-content:center;background:#fff8ec;color:#263445;font:20px/1.6 -apple-system,BlinkMacSystemFont,"PingFang TC","Noto Sans TC","Microsoft JhengHei",sans-serif;text-align:center;padding:16px;box-sizing:border-box}
+a{color:#d96a22;font-weight:700}
+</style>
+</head>
+<body>
+<main>
+<div style="font-size:3rem">🚚</div>
+<p>小朋友學習站搬家了，正在帶你過去…</p>
+<p>沒有自動跳轉的話，請按這裡：<a id="go" href="https://yoda-wcyc.github.io/Kids-Station/">https://yoda-wcyc.github.io/Kids-Station/</a></p>
+</main>
+<script>
+(function () {
+  var p = location.pathname.replace(/^\/kids-english(?=\/|$)/i, '/Kids-Station');
+  if (p.indexOf('/Kids-Station') !== 0) p = '/Kids-Station/';
+  var a = document.getElementById('go'); a.href = p + location.search + location.hash;
+})();
+</script>
+</body>
+</html>
